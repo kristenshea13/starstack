@@ -26,7 +26,6 @@ namespace starstack
                 //figured out two ways to do this: first using a string constructor new string('stringvalue', length)
                 //second is String.Concat(Enumerable.Repeat("stringvalue", length)
 
-
                 //string spaces = new string(' ', 6 - i);
 
                 string spaces = String.Concat(Enumerable.Repeat(" ", 6 - i));
@@ -35,7 +34,6 @@ namespace starstack
 
                 string stars = String.Concat(Enumerable.Repeat("*", i));
 
-                
                 //write solution to console
                 Console.WriteLine($"{spaces}{stars}");
 
